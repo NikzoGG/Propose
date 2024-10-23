@@ -28,7 +28,7 @@ ending_rect = ending.get_rect(topleft=(0,0))
 
 ended = False
 
-#random pos picking where the index is a random number which isnt the same the last one
+#random pos picking where the index is a random number which isnt the same as the last one
 random_number = random.randint(0,3)
 nopositionsy = [400,200,300,100]
 last_random_number = random_number
