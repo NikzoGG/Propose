@@ -29,8 +29,8 @@ ending_rect = ending.get_rect(topleft=(0,0))
 ended = False
 
 #random pos picking where the index is a random number which isnt the same as the last one
-random_number = random.randint(0,3)
-nopositionsy = [400,200,300,100]
+random_number = random.randint(0,6)
+nopositionsy = [400,200,300,100,50,120,440]
 last_random_number = random_number
 
 class ThemeButton:
@@ -79,7 +79,7 @@ while running:
     #mouse hover checkings
     if nobutton_rect.collidepoint(mousepos):
         while random_number == last_random_number:
-            random_number = random.randint(0,3)
+            random_number = random.randint(0,6)
         print("Pleaseeeeee!!")
         nobutton_rect.y = nopositionsy[random_number]
         last_random_number = random_number
