@@ -34,7 +34,7 @@ nopositionsy = [400,200,300,100,50,120,440]
 last_random_number = random_number
 
 class ThemeButton:
-    def __init__(self, x, y, style):
+    def __init__(self,x,y,style):
         self.x = x
         self.y = y
         self.style = style
